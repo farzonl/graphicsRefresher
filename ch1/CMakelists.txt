@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.15.0)
+
+project(raytracer-ch1 LANGUAGES Swift)
+
+set(CMAKE_Swift_MODULE_DIRECTORY ${CMAKE_BINARY_DIR}/swift)
+
+add_executable(${PROJECT_NAME} main.swift)

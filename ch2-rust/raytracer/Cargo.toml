@@ -1,0 +1,14 @@
+[package]
+name = "raytracer"
+version = "0.0.1"
+authors = ["Farzon Lotfi <farzonl@icloud.com>"]
+
+[lib]
+name = "raytracer"
+path = "src/lib/lib.rs"
+crate-type = ["rlib", "dylib"]
+
+[[bin]]
+name = "main"
+path = "src/bin/main.rs"
+
