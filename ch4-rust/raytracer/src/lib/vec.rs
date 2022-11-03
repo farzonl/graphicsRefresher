@@ -1,5 +1,5 @@
 
-use std::ops::{Add, Div, Mul, Neg, Sub};
+use std::ops::{Add, Div, Mul, Neg, Sub, Index};
 use std::fmt::{self, Display};
 use std::cmp;
 

@@ -1,6 +1,6 @@
 extern crate raytracer;
-use raytracer::Vec3;
-use raytracer::Ray;
+use raytracer::vec::Vec3;
+use raytracer::ray::Ray;
 
 pub fn main() {
     let vec = Vec3::zero() + 1.0;
@@ -9,6 +9,6 @@ pub fn main() {
         origin: Vec3::zero(),
         direction: vec
     };
-    let pointing_at = ray.point_at_param(2.0);
+    let pointing_at = ray.point_at_parameter(2.0);
     println!("{}",pointing_at);
 }

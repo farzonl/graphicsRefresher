@@ -1,5 +1,5 @@
 use std::fmt::{self, Display};
-use Vec3;
+use vec::Vec3;
 
 #[derive(Clone, Copy, Default)] //to solve value used here after move error
 pub struct Ray {
